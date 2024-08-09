@@ -1,0 +1,101 @@
+.item-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  padding: 0.25em 10%;
+  font-size: 18px;
+  align-items: center;
+}
+
+.item-container-2 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.btn {
+  width: 2em;
+  height: 2em;
+  background-color: transparent;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn:hover {
+  background-color: var(--btn-background-color);
+}
+
+.item_unchecked {
+  color: var(--body-color);
+}
+
+.item_checked {
+  color: var(--deemphasized-body-color);
+  opacity: 0.7;
+}
+
+.item_unchecked,
+.item_checked {
+  flex: 1;
+  margin-left: 0.25em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.checkbox {
+  cursor: pointer;
+  accent-color: var(--deemphasized-body-color);
+}
+
+.form-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.edit-form {
+  display: flex;
+  align-items: center;
+}
+
+.edit-input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 60%;
+  color: var(--body-color);
+}
+
+.ebtn {
+  width: 2em;
+  height: 2em;
+  margin: 0 0.1em;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid var(--body-color);
+  border-radius: 5px;
+}
+
+.ebtn:hover {
+  background-color: var(--btn-background-color);
+}

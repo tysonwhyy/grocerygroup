@@ -1,0 +1,17 @@
+.container {
+  border: 1.5px solid var(--body-color);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.header-container {
+  color: var(--body-color);
+  border-bottom: 1.5px solid var(--body-color);
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1.5em;
+  padding: 0.25em 0;
+}

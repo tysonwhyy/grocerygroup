@@ -1,0 +1,37 @@
+.btn {
+  color: var(--body-color);
+  font-weight: bold;
+  width: 60%;
+  height: 5em;
+  margin: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px var(--highlight-color);
+  font-size: 18px;
+  background-color: var(--btn-background-color);
+  transition: transform 0.25s ease;
+
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

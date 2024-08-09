@@ -1,0 +1,11 @@
+:root {
+  --body-color: #2d3748;
+  --deemphasized-body-color: #718096;
+  --highlight-color: #e2e8f0;
+  --btn-background-color: #f1f5f9;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}

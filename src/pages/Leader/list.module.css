@@ -1,0 +1,10 @@
+.list-header {
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: var(--body-color);
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+}

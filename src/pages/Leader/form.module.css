@@ -1,0 +1,26 @@
+.item-input {
+  border: none;
+  color: var(--body-color);
+  outline: none;
+  font-size: 18px;
+  width: 65%;
+}
+
+.add-btn {
+  background-color: var(--btn-background-color);
+  color: var(--body-color);
+  border: none;
+  border-radius: 5px;
+  width: 3.5em;
+  height: 2em;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 2px 2px 5px var(--highlight-color);
+  transition: transform 0.25s ease;
+}
+.add-btn:hover {
+  transform: scale(1.1);
+}
+.add-btn:active {
+  transform: scale(0.95);
+}

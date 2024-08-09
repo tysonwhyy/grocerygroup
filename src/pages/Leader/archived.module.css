@@ -1,0 +1,30 @@
+.container {
+  border: 1.5px solid var(--body-color);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.header-container,
+.hidden-archive {
+  color: var(--body-color);
+  border: 1.5px solid var(--body-color);
+  border-radius: 5px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 1.5em;
+  padding: 0.25em 0;
+  cursor: pointer;
+}
+
+.header-container {
+  border: none;
+  border-bottom: 1.5px solid var(--body-color);
+  border-radius: 0;
+}
+
+.hidden-archive {
+  border: 1.5px solid var(--body-color);
+}
